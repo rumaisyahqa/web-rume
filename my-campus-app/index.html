@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kuliah - Tema Bunga</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Judul Halaman -->
+    <h1 class="judul-halaman">🌸 Selamat Datang Rume 🌸</h1>
+    <h2>Semester Anda Sekarang: 4 <span id="semester"></span></h2>
+
+
+    <!-- Navigasi -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="ebook.html">E-Book</a>
+        <a href="tugas.html">Homework reminder</a>
+        <a href="hobbies.html">Hobbies</a>
+    </nav>
+
+    <!-- Kontainer Utama (Dibagi 2 Kolom) -->
+    <div class="main-container">
+        
+        <!-- Bagian Kiri (Fitur Kuliah & Hobi) -->
+        <div class="left">
+            <h2>Features</h2>
+            <div class="feature-box"> E-Book storer</div>
+            <div class="feature-box"> Homework reminder</div>
+            <div class="feature-box"> Uni schedule</div>
+            <div class="feature-box"> Hobbies</div>
+            <button class="fitur-button" onclick="alert('Fitur segera hadir!')">✨ Coba Fitur ✨</button>
+        </div>
+
+        <!-- Bagian Kanan (Artikel Wikipedia Acak) -->
+        <div class="right">
+            <h2>📖 Artikel Acak dari Wikipedia</h2>
+            <img id="wikiImage" src="" alt="Gambar Artikel">
+            <p id="wikiTitle"></p>
+            <a id="wikiLink" href="#" target="_blank">Baca Selengkapnya</a>
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

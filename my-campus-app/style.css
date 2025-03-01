@@ -1,0 +1,97 @@
+/* Gaya umum */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Judul halaman */
+.judul-halaman {
+    font-family: 'Pacifico', cursive;
+    color: #ff69b4;
+    margin: 20px 0;
+}
+
+/* Navigasi */
+nav {
+    background: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Kontainer utama: membagi halaman jadi 2 kolom */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Bagian kiri (Fitur Kuliah & Hobi) */
+.left {
+    width: 55%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.feature-box {
+    background: rgba(255, 182, 193, 0.2);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Tombol fitur */
+.fitur-button {
+    background: pink;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Bagian kanan (Artikel Wikipedia) */
+.right {
+    width: 40%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.right h2 {
+    text-align: center;
+}
+
+#wikiImage {
+    width: 100%; /* Pastikan gambar responsif */
+    max-width: 400px; /* Batasi ukuran maksimal agar tidak terlalu besar */
+    height: auto; /* Biarkan tinggi menyesuaikan proporsi asli */
+    object-fit: contain; /* Pastikan gambar tidak terpotong */
+    display: block;
+    margin: 10px auto; /* Pusatkan gambar */
+    border-radius: 10px; /* Tambahkan sedikit sudut melengkung */
+}
+
+#wikiTitle {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#wikiLink {
+    display: block;
+    margin-top: 10px;
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: bold;
+}

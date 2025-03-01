@@ -1,0 +1,52 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+/* Kontainer untuk menampung hobi */
+.hobi-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Kartu hobi */
+.hobi-card {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(255, 105, 180, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hobi-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(255, 182, 193, 0.5);
+}
+
+/* Tombol kembali */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #ff69b4;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    background-color: #ff1493;
+}
